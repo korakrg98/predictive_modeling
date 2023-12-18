@@ -5,9 +5,9 @@ import numpy as np
 
 st.set_page_config(page_title="Price Prediction")
 
-df = pickle.load(open('C:/Users/korak/PycharmProjects/HousingApp/datasets/df.pkl','rb'))
+df = pickle.load(open('datasets/df.pkl','rb'))
 
-pipeline = pickle.load(open('C:/Users/korak/PycharmProjects/HousingApp/datasets/pipeline.pkl','rb'))
+pipeline = pickle.load(open('datasets/pipeline.pkl','rb'))
 
 st.header('Enter your inputs')
 
